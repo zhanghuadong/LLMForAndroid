@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用deepseek,qianwen等大模型"
+        />
+    <Button
+        android:id="@+id/btnGenerateStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中断推理"
+        />
+    <Button
+        android:id="@+id/btnGenerateDestroy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清理模型"
+        />
+
+    <Button
+        android:id="@+id/btnGenerateTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换模型"
+        />
+
+    <Button
+        android:id="@+id/btnGenerateForThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三方apk调用LLMService独立服务"
+        />
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
